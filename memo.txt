@@ -1,0 +1,9 @@
+- 문제 1
+2024-06-27 14:07:32:ERROR:전체 내용: b'<meta http-equiv="refresh" content="0;url=https://www.saramin.co.kr/error/HTTP_BAD_REQUEST.php">'
+사람인 페이지를 크롤링하자마자 뜬 오류
+크롤러 접근을 막기 위한 조치로 오류 페이지로 리다이렉트하고 있음
+=> selenium으로 브라우저를 통한 크롤링 시도
+
+- 문제 2
+selenium의 상호작용 메소드(send_keys, click)이 안 먹힘
+=> execute_script로 자바스크립트를 직접 입력
